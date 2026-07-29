@@ -7,8 +7,8 @@
 
 # ── Dados brutos (grandes e/ou sigilosos — não versionar) ─────────────────────
 # Suba apenas os dados que você decidir tornar públicos via Zenodo/OSF.
-dados brutos/
-data/
+#dados brutos/
+#data/
 
 # ── Modelos estimados (arquivos .rds pesados — reprodutíveis pelo pipeline) ───
 models/
