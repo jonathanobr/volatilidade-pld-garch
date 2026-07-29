@@ -1,5 +1,6 @@
 # Vulnerabilidade Externa e Preços de Eletricidade no Brasil: Uma Análise Econométrica (2001–2025)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21680431.svg)](https://doi.org/10.5281/zenodo.21680431)
 [![R](https://img.shields.io/badge/R-4.6.0-blue.svg)](https://www.r-project.org/)
 [![Python](https://img.shields.io/badge/Python-3.14-green.svg)](https://www.python.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-11%2B-blue.svg)](https://www.postgresql.org/)
@@ -9,7 +10,7 @@ Este repositório contém o código-fonte integral, rotinas de ETL, scripts de m
 
 ---
 
-## 📌 Informações Acadêmicas
+## Informações Acadêmicas
 
 - **Título:** Vulnerabilidade Externa e Preços de Eletricidade no Brasil: Uma Análise Econométrica (2001–2025)
 - **Autor:** Jonathan Ramos Oliveira
@@ -20,7 +21,7 @@ Este repositório contém o código-fonte integral, rotinas de ETL, scripts de m
 
 ---
 
-## 💻 Arquitetura do Projeto e Estrutura de Pastas
+## Arquitetura do Projeto e Estrutura de Pastas
 
 ```text
 volatilidade-pld-garch/
@@ -60,7 +61,7 @@ volatilidade-pld-garch/
 
 ---
 
-## 🛠️ Requisitos de Ambiente
+## Requisitos de Ambiente
 
 | Recurso | Versão Recomendada | Finalidade no Pipeline |
 |---|---|---|
@@ -82,7 +83,7 @@ volatilidade-pld-garch/
 
 ---
 
-## 🚀 Como Executar o Pipeline
+## Como Executar o Pipeline
 
 ### 1. Clonar o Repositório
 ```bash
@@ -119,7 +120,7 @@ O script executará sequencialmente:
 
 ---
 
-## ⚡ Reprodutibilidade e Seleção de Seed
+## Reprodutibilidade e Seleção de Seed
 
 A estimação dos modelos utiliza a semente **`seed = 9235111`**, definida por varredura sistemática (grid search em 512 sementes candidatas) documentada no **Apêndice A** do trabalho. A escolha atende simultaneamente aos critérios de:
 - Convergência do solver numérico (`gosolnp`);
@@ -130,7 +131,7 @@ A estimação dos modelos utiliza a semente **`seed = 9235111`**, definida por v
 
 ---
 
-## 📜 Citação
+## Citação
 
 Se utilizar este código ou os datasets gerados em sua pesquisa, por favor cite:
 
@@ -147,6 +148,6 @@ Se utilizar este código ou os datasets gerados em sua pesquisa, por favor cite:
 
 ---
 
-## 📄 Licença
+## Licença
 
 Este projeto está licenciado sob a Licença **MIT** — veja o arquivo [LICENSE](LICENSE) para mais detalhes.
