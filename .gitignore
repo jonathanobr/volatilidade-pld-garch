@@ -11,11 +11,11 @@
 #data/
 
 # ── Modelos estimados (arquivos .rds pesados — reprodutíveis pelo pipeline) ───
-models/
+#models/
 
 # ── Saídas geradas automaticamente (reprodutíveis) ────────────────────────────
-relatorios/
-output/
+#relatorios/
+#output/
 
 # ── Artefatos do RStudio ──────────────────────────────────────────────────────
 .Rhistory

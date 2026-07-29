@@ -1,0 +1,17 @@
+============================================================
+RESUMO DA VARREDURA DE SEEDS
+============================================================
+Seeds testadas              : 512
+Seeds válidas (todos_ok)    : 10 (2.0%)
+Seeds com n_ok = 3          : 0
+Seeds com n_ok <= 2         : 502
+
+Taxa de falha por modelo (independente dos demais):
+  se_puro : 74.4%
+  se_m4   : 74.4%
+  s_puro  : 95.5%
+  s_m4    : 95.5%
+
+Tempo de execução           : 3815.2 s (63.6 min)
+Workers utilizados          : 14 de 16 disponíveis
+============================================================
