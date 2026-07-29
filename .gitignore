@@ -1,0 +1,37 @@
+# ==============================================================================
+# .gitignore — código_banca
+# ==============================================================================
+
+# ── Credenciais (NUNCA subir ao GitHub) ───────────────────────────────────────
+.env
+
+# ── Dados brutos (grandes e/ou sigilosos — não versionar) ─────────────────────
+# Suba apenas os dados que você decidir tornar públicos via Zenodo/OSF.
+dados brutos/
+data/
+
+# ── Modelos estimados (arquivos .rds pesados — reprodutíveis pelo pipeline) ───
+models/
+
+# ── Saídas geradas automaticamente (reprodutíveis) ────────────────────────────
+relatorios/
+output/
+
+# ── Artefatos do RStudio ──────────────────────────────────────────────────────
+.Rhistory
+.RData
+.Rproj.user/
+src/.Rhistory
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# ── Sistema operacional ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
