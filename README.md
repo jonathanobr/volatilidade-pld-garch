@@ -81,6 +81,17 @@ volatilidade-pld-garch/
 - `pandas` (Manipulação e exportação de DataFrames para CSV)
 - `ipeadatapy` (Interface com a API pública do IPEADATA)
 
+### Gerenciamento de Dependências Python (`uv`)
+O projeto utiliza o [`uv`](https://astral.sh/uv) para gerenciamento rápido e isolado do ambiente Python (`pyproject.toml` / `uv.lock`):
+
+```bash
+# Inicializar o ambiente virtual e instalar dependências
+uv sync
+
+# Executar a coleta de dados via uv
+uv run python src/00_coleta_dados.py
+```
+
 ---
 
 ## Como Executar o Pipeline

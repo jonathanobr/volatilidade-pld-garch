@@ -5,7 +5,7 @@
 # ── Credenciais (NUNCA subir ao GitHub) ───────────────────────────────────────
 .env
 
-# ── Dados brutos (grandes e/ou sigilosos — não versionar) ─────────────────────
+# ── Dados brutos ──────────────────────────────────────────────────────────────
 # Suba apenas os dados que você decidir tornar públicos via Zenodo/OSF.
 #dados brutos/
 #data/
